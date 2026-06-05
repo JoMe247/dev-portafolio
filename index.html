@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portafolio | Desarrollador Web</title>
+  <title>José Mendoza | Portafolio de Trabajo</title>
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 
 <body>
   <header class="hero">
     <nav class="nav">
-      <h1>Portafolio</h1>
+      <h1>José Mendoza</h1>
       <div>
         <a href="#proyectos">Proyectos</a>
         <a href="#habilidades">Habilidades</a>
@@ -21,11 +21,10 @@
 
     <section class="hero-content">
       <p class="tag">Desarrollador Web Full Stack</p>
-      <h2>Desarrollo de aplicaciones web, CRM, automatización y despliegues en servidor</h2>
+      <h2>Laravel, WordPress y despliegue de aplicaciones en Linux</h2>
       <p>
-        Experiencia trabajando con Laravel, PHP, MySQL, JavaScript, WordPress,
-        integración de APIs, generación de documentos PDF, mensajería SMS/WhatsApp
-        y despliegue de proyectos en Linux/hosting.
+        Desarrollo aplicaciones web, sistemas CRM, módulos administrativos, integraciones con APIs,
+        sitios WordPress personalizados y despliegues en servidores Linux.
       </p>
     </section>
   </header>
@@ -34,33 +33,46 @@
     <section class="section" id="sobre-mi">
       <h2>Sobre mí</h2>
       <p>
-        Soy desarrollador web con enfoque en soluciones empresariales. He trabajado en sistemas CRM,
-        módulos de clientes, pólizas, documentos digitales, reportes, autenticación, integración de APIs
-        y administración de servidores para publicación de aplicaciones web.
+        Soy desarrollador web con experiencia creando soluciones empresariales con Laravel, PHP, MySQL,
+        JavaScript y WordPress. He trabajado en sistemas CRM, gestión de clientes, documentos digitales,
+        reportes, autenticación, integración de APIs, mensajería SMS/WhatsApp y administración de servidores Linux.
       </p>
     </section>
 
     <section class="section" id="proyectos">
       <h2>Proyectos destacados</h2>
 
-      <article class="card">
+      <article class="card featured-card">
         <div class="card-header">
-          <h3>CRM de Mensajería y Documentos</h3>
+          <h3>CRM empresarial con Laravel</h3>
           <span>Laravel / PHP / MySQL</span>
         </div>
         <p>
           Sistema CRM para administración de clientes, pólizas, documentos, pagos, reportes y comunicación
-          mediante SMS/WhatsApp. El proyecto incluye autenticación multiusuario, control de sesiones,
-          límites por plan, generación de documentos PDF y módulos administrativos.
+          mediante SMS/WhatsApp. Incluye autenticación multiusuario, control de sesiones, límites por plan,
+          generación de documentos PDF y módulos administrativos.
         </p>
+        <div class="gallery three">
+          <figure>
+            <img src="assets/dashboard.png" alt="Dashboard del CRM Laravel" />
+            <figcaption>Dashboard administrativo con métricas, clientes recientes y documentos.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/customers.png" alt="Módulo de clientes del CRM Laravel" />
+            <figcaption>Módulo de clientes con búsqueda, registros y gestión centralizada.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/reports.png" alt="Módulo de reportes del CRM Laravel" />
+            <figcaption>Reportes con filtros, exportación CSV/PDF y métricas financieras.</figcaption>
+          </figure>
+        </div>
         <ul>
-          <li>Gestión de clientes, pólizas, invoices, payments y reportes.</li>
+          <li>Gestión de clientes, pólizas, invoices, payments, documentos y reportes.</li>
           <li>Integración con Twilio para mensajería SMS/WhatsApp.</li>
           <li>Editor de plantillas PDF con campos dinámicos y firma electrónica.</li>
-          <li>Dashboard con métricas, documentos recientes y accesos rápidos.</li>
           <li>Control de usuarios, subusuarios, permisos y sesiones persistentes.</li>
         </ul>
-        <p class="tech">Laravel · PHP · MySQL · JavaScript · Twilio API · Dompdf · Linux</p>
+        <p class="tech">Laravel · PHP · MySQL · JavaScript · Twilio API · Dompdf · Git</p>
       </article>
 
       <article class="card">
@@ -70,14 +82,18 @@
         </div>
         <p>
           Personalización de sitio inmobiliario en WordPress utilizando tema hijo, ajustes visuales,
-          formularios de contacto, integración con WhatsApp y mejoras en la experiencia de usuario.
+          filtros dinámicos, formularios de contacto, integración con WhatsApp y mejoras en la experiencia de usuario.
         </p>
+        <figure class="project-image">
+          <img src="assets/bracyc.png" alt="Página principal del sitio inmobiliario BRACYC" />
+          <figcaption>Sitio inmobiliario con filtros, selector de idioma, formulario de contacto y diseño personalizado.
+          </figcaption>
+        </figure>
         <ul>
           <li>Personalización de estilos mediante CSS en tema hijo.</li>
           <li>Modal global de contacto con integración a WhatsApp.</li>
           <li>Ajustes visuales en tarjetas de propiedades, testimonios y formularios.</li>
           <li>Corrección de conflictos con plugins y carga de estilos.</li>
-          <li>Adaptaciones para versión en español/inglés.</li>
         </ul>
         <p class="tech">WordPress · PHP · CSS · JavaScript · WPForms · Theme Child</p>
       </article>
@@ -89,35 +105,20 @@
         </div>
         <p>
           Configuración de entorno Linux para ejecutar un proyecto Laravel en servidor, incluyendo base de datos,
-          PHP, Composer, Nginx, permisos, variables de entorno y pruebas de acceso mediante red local y túnel HTTPS.
+          PHP, Composer, Nginx, permisos, variables de entorno, SSH y pruebas de acceso mediante red local y túnel
+          HTTPS.
         </p>
+        <figure class="project-image">
+          <img src="assets/ubuntu-server.png" alt="Servidor Ubuntu para proyecto Laravel" />
+          <figcaption>Servidor Ubuntu 24.04 configurado para entorno Laravel con PHP, MySQL, Nginx y SSH.</figcaption>
+        </figure>
         <ul>
           <li>Instalación y configuración de Ubuntu Server en VirtualBox.</li>
           <li>Configuración de PHP, Composer, Nginx, MySQL, Node y npm.</li>
-          <li>Importación de bases de datos y ajuste de archivo .env.</li>
+          <li>Importación de bases de datos y ajuste del archivo .env.</li>
           <li>Publicación temporal mediante Cloudflare Tunnel.</li>
-          <li>Pruebas de login, sesiones, assets y conexión a base de datos.</li>
         </ul>
-        <p class="tech">Ubuntu Server · Nginx · MySQL · PHP · Composer · Cloudflare Tunnel</p>
-      </article>
-
-      <article class="card">
-        <div class="card-header">
-          <h3>Despliegue en Hostinger con rutas personalizadas</h3>
-          <span>Hosting / Git / Laravel</span>
-        </div>
-        <p>
-          Publicación de proyecto Laravel en hosting compartido, configuración de rutas bajo subdirectorio,
-          conexión de base de datos, variables de entorno, assets, correo SMTP y flujo de actualización con Git.
-        </p>
-        <ul>
-          <li>Configuración de proyecto Laravel en Hostinger.</li>
-          <li>Ajuste de rutas bajo prefijo público.</li>
-          <li>Configuración de APP_URL, ASSET_URL y caché de Laravel.</li>
-          <li>Conexión de base de datos MySQL y pruebas de migraciones.</li>
-          <li>Uso de Git para actualizar cambios en producción.</li>
-        </ul>
-        <p class="tech">Hostinger · Laravel · Git · SSH · MySQL · SMTP</p>
+        <p class="tech">Ubuntu Server · Nginx · MySQL · PHP · Composer · SSH · Cloudflare Tunnel</p>
       </article>
     </section>
 
@@ -128,15 +129,17 @@
         <span>PHP</span>
         <span>MySQL</span>
         <span>JavaScript</span>
-        <span>HTML</span>
-        <span>CSS</span>
+        <span>jQuery</span>
+        <span>HTML5</span>
+        <span>CSS3</span>
         <span>WordPress</span>
-        <span>APIs</span>
-        <span>Twilio</span>
-        <span>PDF/Dompdf</span>
+        <span>APIs REST</span>
+        <span>Twilio API</span>
+        <span>PDF / Dompdf</span>
         <span>Linux</span>
+        <span>Ubuntu Server</span>
         <span>Nginx</span>
-        <span>Git/GitHub</span>
+        <span>Git / GitHub</span>
         <span>Hostinger</span>
       </div>
     </section>
@@ -144,17 +147,15 @@
     <section class="section" id="contacto">
       <h2>Contacto</h2>
       <p>
-        Disponible para colaborar en desarrollo web, automatización, integración de APIs,
-        mantenimiento de sistemas Laravel/WordPress y despliegue de aplicaciones.
+        Disponible para colaborar en desarrollo web, mantenimiento de sistemas Laravel/WordPress,
+        integración de APIs y despliegue de aplicaciones.
       </p>
-      <p class="contact">GitHub: <a href="https://github.com/JoMe247" target="_blank">https://github.com/JoMe247</a>
-      </p>
-      <p class="contact">Email: Jose_Mendoza971@outlook.com</p>
+      <p class="contact">GitHub: <a href="https://github.com/JoMe247" target="_blank">https://github.com/JoMe247</a></p>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Portafolio de trabajo</p>
+    <p>© 2026 José Mendoza · Portafolio de trabajo</p>
   </footer>
 </body>
 
